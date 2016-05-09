@@ -72,6 +72,9 @@ var $=function(str){
 	//4将HTML回写到DOM中
 	$("#main").innerHTML+=out_img.join("");	
 })();
+/*
+与页面加载同步
+*/
 window.onload=function(){
 	waterfall();
 	window.onscroll=function(){
